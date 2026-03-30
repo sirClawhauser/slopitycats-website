@@ -243,6 +243,29 @@
         footer a { color: #444; text-decoration: none; }
         footer a:hover { color: #888; }
 
+        /* App Store banner */
+        .app-banner {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 14px 20px;
+            margin: 10px auto;
+            max-width: 480px;
+            border: 1px solid #333;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            color: #999;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .app-icon {
+            font-size: 1.2rem;
+        }
+
         /* Disable right-click on images */
         img { -webkit-user-select: none; user-select: none; }
 
@@ -308,6 +331,12 @@
             <span class="cat-name">Handle With Care</span>
         </div>
     </section>
+
+    <!-- App Store banner -->
+    <div class="app-banner">
+        <span class="app-icon">📱</span>
+        <span>Slopity Cats — the game. App Store release soon.</span>
+    </div>
 
     <!-- CTA -->
     <section class="cta">
